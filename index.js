@@ -1,5 +1,11 @@
 
 /**
+ * Module dependencies.
+ */
+
+var withinDocument = require('within-document');
+
+/**
  * Expose `removed`.
  */
 
@@ -37,20 +43,4 @@ function interval(el, fn) {
     clearInterval(id);
     fn(el);
   }, exports.interval);
-}
-
-/**
- * Check if `el` is within the document.
- *
- * @param {Element} el
- * @return {Boolean}
- * @api private
- */
-
-function withinDocument(el) {
-  var node = el;
-  while (node = node.parentNode) {
-    if (node == document) return true;
-  }
-  return false;
 }

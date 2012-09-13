@@ -4,7 +4,9 @@
   "description": "invoke a callback when a DOM element is removed",
   "version": "0.0.1",
   "keywords": ["dom", "event"],
-  "dependencies": {},
+  "dependencies": {
+    "within-document": "*"
+  },
   "development": {},
   "component": {
     "scripts": {
