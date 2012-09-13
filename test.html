@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <button>Remove a</button>
+    <button>Remove b</button>
+    <p><span><button>Remove c</button></span></p>
+
+    <script src="build/build.js"></script>
+    <script src="http://code.jquery.com/jquery-1.8.1.min.js"></script>
+
+    <script>
+      var buttons = document.getElementsByTagName('button');
+      var a = buttons[0];
+      var b = buttons[1];
+      var c = buttons[2];
+
+      removable(a);
+      removable(b);
+
+      $(c).click(function(){
+        $('p').remove();
+      });
+
+      function removable(el) {
+        el.addEventListener('click', function(){
+          el.parentNode.removeChild(el);
+        }, false);
+      }
+
+      var removed = require('removed');
+
+      removed(a, callback);
+      removed(b, callback);
+      removed(c, callback);
+
+      function callback(el) {
+        console.log('removed');
+        console.log(el);
+      }
+    </script>
+  </body>
+</html>
