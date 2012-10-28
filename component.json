@@ -3,12 +3,16 @@
   "repo": "component/removed",
   "description": "invoke a callback when a DOM element is removed",
   "version": "0.0.1",
-  "keywords": ["dom", "event"],
+  "keywords": [
+    "dom",
+    "event"
+  ],
   "dependencies": {
     "component/within-document": "*"
   },
   "development": {},
   "scripts": [
     "index.js"
-  ]
+  ],
+  "license": "MIT"
 }
