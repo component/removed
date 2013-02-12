@@ -5,12 +5,15 @@
   "version": "0.0.1",
   "keywords": ["dom", "event"],
   "dependencies": {
-    "within-document": "*"
+    "within-document": "*",
+    "mutation-observer": "*"
   },
   "development": {},
   "component": {
     "scripts": {
-      "removed/index.js": "index.js"
+      "removed/index.js": "index.js",
+      "removed/fallback.js": "fallback.js",
+      "removed/dom4.js": "dom4.js"
     }
   }
 }
