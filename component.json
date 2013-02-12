@@ -5,14 +5,19 @@
   "version": "0.0.1",
   "keywords": [
     "dom",
-    "event"
+    "event",
+    "mutation",
+    "removal"
   ],
   "dependencies": {
-    "component/within-document": "*"
+    "component/within-document": "*",
+    "component/mutation-observer": "*"
   },
   "development": {},
   "scripts": [
-    "index.js"
+    "index.js",
+    "fallback.js",
+    "dom4.js"
   ],
   "license": "MIT"
 }
