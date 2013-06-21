@@ -17,6 +17,7 @@
   "scripts": [
     "index.js",
     "fallback.js",
+    "dom3.js",
     "dom4.js"
   ],
   "license": "MIT"
