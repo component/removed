@@ -3,7 +3,10 @@
   "repo": "component/removed",
   "description": "invoke a callback when a DOM element is removed",
   "version": "0.0.3",
-  "keywords": ["dom", "event"],
+  "keywords": [
+    "dom",
+    "event"
+  ],
   "dependencies": {
     "within-document": "*",
     "mutation-observer": "*"
@@ -15,5 +18,9 @@
       "removed/fallback.js": "fallback.js",
       "removed/dom4.js": "dom4.js"
     }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/component/removed.git"
   }
 }
