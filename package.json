@@ -9,7 +9,7 @@
   ],
   "dependencies": {
     "within-document": "*",
-    "mutation-observer": "*"
+    "mutation-observer": "1.0.1"
   },
   "development": {},
   "component": {

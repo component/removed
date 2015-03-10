@@ -11,7 +11,7 @@
   ],
   "dependencies": {
     "component/within-document": "*",
-    "component/mutation-observer": "*"
+    "component/mutation-observer": "1.0.1"
   },
   "development": {},
   "scripts": [
