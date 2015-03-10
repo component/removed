@@ -8,7 +8,7 @@
     "event"
   ],
   "dependencies": {
-    "within-document": "*",
+    "within-document": "0.0.3",
     "mutation-observer": "1.0.1"
   },
   "development": {},
